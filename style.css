@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    color: #fff;
+    background-color: rgb(17, 17, 17);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url(Imagem/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+#hero{
+    color:#fff;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh; 
+}
+
+#hero h2{
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#hero .btn{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: #be0000;
+}
+#hero .btn:hover{
+    background-color: #680000;
+}
+
+.conteiner{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+#Sobre-mim{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
+}
+#Cursos .Curso{
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#Cursos .Curso img{
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#Cursos .Curso .Curso-info{
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+}
+
+#Cursos .Curso h3{
+    margin-bottom: 10px;
+    display: center;
+}
+
+#Cursos .Curso p{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#Cursosn .Curson{
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#Cursosn .Curson img{
+    max-width: 600px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#Cursosn .Curson .Curso-info{
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+}
+
+#Cursosn .Curson h3{
+    margin-bottom: 10px;
+    display: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    widht: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form input[type="submit"] {
+    background: #be0000;
+    color: #fff;
+    border: 0;
+    cursos: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#contact form input[type="submit"]:hover {
+    background: #680000;
+}
+
+#Link-topo{
+    text-decoration: none;
+    color:#ddd;
+    background-color: #680000;
+    padding: 7px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px, 3px, 10px, #333;
+}
+
+.Rodape{
+    text-align: center;
+    background-color: rgb(44, 121, 243);
+    color: white;
+}
